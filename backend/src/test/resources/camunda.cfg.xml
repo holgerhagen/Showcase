@@ -9,5 +9,8 @@
         <!-- Database configurations -->
         <property name="databaseSchemaUpdate" value="true"/>
     </bean>
+    
+    <bean id="shipmentOrderCompletedSentry" class="org.educama.shipment.cmmn.sentries.ShipmentOrderCompletedSentry"></bean>
+    <bean id="shipmentRepository" class="org.educama.shipment.casemodel.mock.ShipmentRepositoryMock"></bean>
 
 </beans>
